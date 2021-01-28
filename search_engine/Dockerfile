@@ -8,7 +8,7 @@ RUN update-alternatives --set python /usr/bin/python3.7
 RUN apt install llvm-9-dev -y
 RUN ln -s /usr/bin/llvm-config-9 /usr/bin/llvm-config
 ADD ./requirements.txt /requirements.txt
-ADD ./.pip_cache /pip_cache
+ADD ./pip_cache /pip_cache
 RUN echo 'alias python3.7=/usr/bin/python3'
 RUN python3.7 -m pip install -r requirements.txt --cache-dir /pip_cache
 ADD . /
