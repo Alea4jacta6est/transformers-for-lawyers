@@ -106,7 +106,6 @@ celerybeat.pid
 
 # Environments
 .idea/*
-.env
 .venv
 env/
 venv/
@@ -135,6 +134,5 @@ dmypy.json
 */assets/ipbox/*
 */assets/state_aid/*
 data/*
-.env
 pip_cache/*
 test_index/*

@@ -106,7 +106,7 @@ Create virtual environment and source it. Then, in the `search_engine` directory
 ```
 cd search_engine
 pip install -r requirements.txt
-python3.8 app.py -t index
+python app.py -t index
 cd ..
 sudo docker-compose up
 ```
