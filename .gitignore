@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+./idea/*
+poldata/*
+
 *.py[cod]
 *$py.class
 
@@ -103,7 +106,6 @@ celerybeat.pid
 
 # Environments
 .idea/*
-.env
 .venv
 env/
 venv/
@@ -128,3 +130,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.pkl
+*/assets/ipbox/*
+*/assets/state_aid/*
+data/*
+pip_cache/*
+test_index/*
