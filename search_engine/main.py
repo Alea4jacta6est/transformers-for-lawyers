@@ -32,7 +32,7 @@ def search():
     query = request.get_json()
     query  = query["data"]
 
-    answer = requests.post(f"http://localhost:{server_port}/api/search", json={"data": query, "top_k": 10}).text
+    answer = requests.post(f"http://0.0.0.0:{server_port}/api/search", json={"data": query, "top_k": 10}).text
 
     answer = json.loads(answer)
     observable.result = answer

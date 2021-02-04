@@ -109,6 +109,7 @@ pip install -r requirements.txt
 python app.py -t index
 cd ..
 sudo docker-compose up
+(If you are in Google Cloud, please, update environment.prod.ts file with your host and add firewall rules)
 ```
 
 
