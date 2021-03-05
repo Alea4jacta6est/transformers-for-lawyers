@@ -14,7 +14,6 @@ def data_fn():
     documents = glob("./data/*")
     print(documents)
     for i in documents:
-        print(i)
         with open(i, 'r', encoding='utf-8') as f:
             content = f.read()
         with Document() as d:

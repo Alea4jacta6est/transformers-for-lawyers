@@ -76,7 +76,7 @@ Below please find how to launch it on Ubuntu. If you are working on (for example
 
 ## 1. Upload
 
-Upload documents in `*.txt` format to `search_engine/data` and `frontendApp/src/assets`.
+Upload documents in `*.txt` format to `search_engine/data` and `frontend_app/src/assets`.
 
 ## 2. Set global environment variables
 

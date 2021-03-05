@@ -1,0 +1,15 @@
+<h2> Demo with huggingface BERT and Jina</h2>
+
+All sentences from judgments have been encoded via BERT model
+ (<code>bert-base-uncased</code>  provided by
+ <a href="https://huggingface.co/">Huggingface's
+ <code>transformers</code> library</a>), i.e. example
+ of very powerful NLP model that conquered the AI applications.
+<br><br>
+
+<br> <b> How it works? </b>
+<ol>
+<li>You need to write a phrase / sentence (not a word and less than 512 words)</li>
+<li>Click Enter</li>
+<li>You get the most similar sentence (the lower score, the better)</li>
+</ol>
